@@ -16,9 +16,6 @@ function Todo() {
 		// console.log(`updatedTasks ${updatedTasks}`);
 		updatedTasks.splice(index, 1);
 		setTask(updatedTasks);
-		// console.log(`task ${Task}`);
-		// console.log(`updatedTasks ${updatedTasks}`);
-		// console.log(`task ${Task}`);
 	};
 	return (
 		<div>
