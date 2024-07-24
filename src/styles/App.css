@@ -1,1 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+
+.assistant {
+    font-family: "Assistant", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.wittgenstein {
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+.lora {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+.heading {
+    text-align: center;
+}
+
+.button {
+    color: black !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: white !important;
+}
+
+.textbox {
+    outline: none !important;
+}
+
+.textbox:focus,
+.button:active,
+.button:hover {
+    border: 1px solid #036BFF !important;
+}
+
+/* .button:active{
+    border: 1px solid #036BFF !important;
+} */
