@@ -32,10 +32,10 @@ function Todo() {
 				{
 					Task.map((item, index) => {
 						return <ul class="container">
-									<div class="row" key={index}>
+									<li class="row" key={index}>
 										<div class="col-10 wittgenstein"><div>{item}</div></div>
 										<div class="col-2"><button className="btn btn-outline-secondary assistant" onClick={() => deleteTask(index)}>Delete</button></div>
-									</div>
+									</li>
 								</ul>
 
 						/* If write onClick={deleteTask(index)}, it would immediately invoke deleteTask with index as 
